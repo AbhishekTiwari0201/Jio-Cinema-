@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    border: 0.1px solid rgb(65, 51, 51);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+.header_div{
+    height: 70px;
+    width: 290px;
+    display: flex;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.header_div2{
+    display: flex;
+    height: 70px;
+    width: 138px;
+    padding-top: 15px;
+    padding-left:45px ;   
+    
+}
+.img_icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.jio_text{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.6px;
+    color: white;
+}
+.btn_subs{
+    align-items: center;
+    width: 90px;
+    height: 31px;
+    margin-top: 18px;
+    margin-left: 7px;
+    border-radius: 30px ;
+    border: 2px solid rgb(193, 163, 98);
+    color: rgb(193, 163, 98);
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.5px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: -0.6px;
+}
+.header_main{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;  
+                                                                        
+   
+}
+a{
+    text-decoration: none;
+    padding-top: 22px;   
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: -01px;
+    color: rgb(161, 148, 148);
+    
+}
+.search_opt{
+    height: 70px;
+    width: 550px;
+}
+.btn_ipt{
+    margin-left: 140px;
+    margin-top: 13px;
+    width: 313px;
+    height: 37px;
+    border-radius: 30px;
+    font-weight: 750;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    background-color: rgb(48, 41, 41);
+    border: none;
+}
+.user_logo{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    margin-top: -38px;
+    margin-left: 480px;
+    border-radius: 50%;
+    background-color: rgb(48, 41, 41);
+}
+.top{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center; 
+    background-color: black;   
+}
+.btn_top{
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width:fit-content;
+    height: 30px;
+    font-weight: 800;  
+    background-color:  rgb(82, 69, 69);
+    color: white; 
+    border: none;
+}
+.top_inner{
+    height: 70px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+.dhoni_page{
+    border: 1px solid black;
+    height: 480px;
+    width: 100%;
+    background-image: url(./main_image.avif) ;
+    background-size: contain;
+}
+.dhoni_main{
+    width: 100%;
+    height: 280px;
+    margin-top: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.dhoni_img{
+    width: 195px;
+    height: 250px;
+    border-radius: 10px;
+}
+h1{
+    position: relative;
+    top: 105px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    position: relative;
+    top: 120px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
